@@ -10,14 +10,13 @@ def main():
     income = float(input("Please enter your annual income: $"))
 
     if credit >= 720 and income >= 60000:
-        print("Loan Risk Category: Low Risk")
-        print("")
+        risk = "Low Risk"
     elif credit >= 650 and income >= 40000:
-        print("Loan Risk Category: Medium Risk")
-        print("")
+        risk = "Medium Risk"
     else:
-        print("Loan Risk Category: High Risk")
-        print("")
+        risk = "High Risk"
+    print("")
+    print(f"Loan Risk Category: {risk}")
 
 
 main()

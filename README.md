@@ -9,3 +9,7 @@ Problem 2: Employee Performance Bonus
 - Prompts user for annual salary and performance score
 - Determines bonus amount
 - Returns bonus percentage and bonus amount
+
+Problem 3: Loan Risk Classification
+- Prompts user for credit score and annual income
+- Returns risk category based on that information
